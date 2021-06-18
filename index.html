@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#111111">
+	<title>New site</title>
+	<link rel="stylesheet" href="css/main.min.css">
+	
+</head>
+<body>
+	<div class="site-container">
+		<header class="header">  
+  <div class="container">
+    <nav class="nav" >
+      <ul class="nav__menu" >
+        <li class="nav__item"> 
+          <a href="#" class="nav__link" data-text="Home">Home</a> 
+        </li>
+        <li class="nav__item"> 
+          <a href="#about" class="nav__link" data-text="About me">About me</a> 
+        </li>
+        <li class="nav__item"> 
+          <a href="#skills" class="nav__link" data-text="Skills">Skills</a> 
+        </li>
+        <li class="nav__item"> 
+          <a href="#portfolio" class="nav__link" data-text="Portfolio">Portfolio</a> 
+        </li>
+        <li class="nav__item"> 
+          <a href="#contacts" class="nav__link" data-text="Contacts">Contacts</a> 
+        </li>
+      </ul>
+    </nav>
+    <section class="intro"> 
+      <div class="intro__wrap">
+        <div class="intro__name">Denis Novik</div>
+        <div class="intro__age">UX | UI designer<br>
+          24 years old, Minsk</div>
+       
+        <div class="intro__lang">
+          <div class="intro__block">
+            <input name="radio" value="1" type="radio" id="lang_ru" checked hidden>
+            <label for="lang_ru">RU</label>
+          </div>
+          <span>|</span>
+          <div class="intro__block">
+            <input name="radio" value="2" type="radio" id="lang_eng"  hidden>
+            <label for="lang_eng">ENG</label> 
+          </div>
+        </div>
+      </div>
+      
+      <div class="burger" id="burger">
+        <span class="burger__line"></span>
+      </div>
+      
+      <div class="intro__ava">
+        
+        <img src="img/ava.jpg" alt="" class="intro__img">
+        <img src="img/ava_mob.jpg" alt="" class="intro__img_mob" id="intro__img_mob">
+      </div>
+    </section>
+
+  </div>
+</header>
+
+		<section class="about" id="about"> 
+    <div class="container">
+        <div class="about__title title">About me</div>
+        <div class="about__subtitle">
+            <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                I'm interested in design and everything connected with it.</p>
+            <p>I'm studying at courses "Web and mobile design <br>
+                interfaces" in IT-Academy</p>
+            <p>Ready to implement excellent projects <br>
+                with wonderful people.</p>
+        </div>
+    </div>
+</section>
+		<section class="skills" id="skills">
+    <div class="container">
+        <div class="skills__title title">Skills</div>
+        <div class="skills__subtitle">I work in such programs as</div>
+        <div class="skills__elem">
+            <div class="skills__item">
+                <img src="img/Ps.png" alt="" class="skills__reduct">
+                <p>Adobe <br>
+                    Photoshop</p>
+                <div class="skills__stars">
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_grey"></div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <img src="img/Ai.png" alt="" class="skills__reduct">
+                <p>Adobe <br>
+                    Illustrator</p>
+                <div class="skills__stars">
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_grey"></div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <img src="img/Ae.png" alt="" class="skills__reduct">
+                <p>Adobe <br>
+                    After Effects</p>
+                <div class="skills__stars">
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_grey"></div>
+                    <div class="skills__stars_grey"></div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <img src="img/Fig.png" alt="" class="skills__reduct_fig">
+                <p>Figma</p>
+                <div class="skills__stars">
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_black"></div>
+                    <div class="skills__stars_grey"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		
+		<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="portfolio__title title">
+            Portfolio
+        </div>
+        <div class="portfolio__web">
+            <img src="img/fashion.jpg" alt="">
+            <div class="portfolio__link"> <a href="#">Online fashion store - Homepage</a> </div>
+        </div>
+        <div class="portfolio__web">
+            <img src="img/reebok.jpg" alt="">
+            <div class="portfolio__link"> <a href="#">Reebok Store - Concept</a> </div>
+        </div>
+        <div class="portfolio__web">
+            <img src="img/braun.jpg" alt="">
+            <div class="portfolio__link"> <a href="#">Braun Landing Page - Concept</a> </div>
+        </div>
+    </div>
+</section>
+
+		<footer class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts__title title">
+            Contacts
+        </div>
+        <div class="contacts__subtitle">
+            Want to know more or just chat? <br>
+            You are welcome!
+        </div>
+        <a href="#open" class="contacts__link open_modal">
+            <div class="contacts__button"> Send message</div>
+        </a>
+
+        <div id="modal" class="modal bounceIn">
+            <div id="close_modal">+</div>
+            <div class="modal_txt">
+                <form action="mail.php" class="form">
+                    <div class="form__txt">Your name</div>
+                        <input class="form__input" type="text" name="name" required="required">
+                    <div class="form__txt">Your email</div>
+                        <input class="form__input" type="email" name="email" required="required">
+                    <div class="form__txt">Your message</div>
+                        <textarea class="form__input" name="message"></textarea>
+                    <input class="form__submit" type="submit" name="submit_btn" value="Send message">
+                </form>
+            </div>
+        </div>
+
+        <div class="contacts__socials">
+            <div class="contacts__item">
+               <a class="contacts__item-link" href="#"> <img src="img/LinkedIn.png" alt=""></a>
+            </div>
+            <div class="contacts__item">
+               <a class="contacts__item-link" href="#"> <img src="img/inst.png" alt=""></a>
+            </div>
+            <div class="contacts__item">
+               <a class="contacts__item-link" href="#"> <img src="img/behance.png" alt=""></a>
+            </div>
+            <div class="contacts__item">
+               <a class="contacts__item-link" href="#"> <img src="img/Dribble.png" alt=""></a>
+            </div>
+          
+        </div>
+        <div class="contacts__text">Like me on <br>
+            LinkedIn, Instagram, Behance, Dribble</div>
+
+    </div>
+</footer>
+		
+		
+
+		<div class="top" id="arrowTop">
+			<img src="img/top.png" alt="" class="top__img">
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
